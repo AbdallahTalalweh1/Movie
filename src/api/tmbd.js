@@ -8,3 +8,4 @@ export const getPopularMovies = () =>
 
 export const getMovieDetails = (movieId) =>
   axios.get(`${BASE_URL}/movie/${movieId}?api_key=${API_KEY}`);
+
